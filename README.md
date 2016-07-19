@@ -18,7 +18,7 @@ The API is simple and consists of these classes:
 Installing with rubygems should just work. TinyTDS is currently tested on Ruby version 2.0.0 and upward.
 
 ```
-$ gem install tiny_tds
+$ gem install tiny_tds_vagas
 ```
 
 If you use Windows, we pre-compile TinyTDS with static versions of FreeTDS, libiconv, and OpenSSL. On all other platforms, we will find these dependencies. If none exist, our native extension will use MiniPortile to install any missing dependencies listed above for your specific platform. These dependencies will be built and linked within the installed TinyTDS gem. Please read the MiniPortile and/or Windows sections at the end of this file for advanced configuration options past the following:
@@ -404,10 +404,8 @@ $ rake TINYTDS_SKIP_PORTS=1
 
 ## Help & Support
 
-* Github Source: http://github.com/rails-sqlserver/tiny_tds
-* Github Issues: http://github.com/rails-sqlserver/tiny_tds/issues
-* Google Group: http://groups.google.com/group/rails-sqlserver-adapter
-* IRC Room: #rails-sqlserver on irc.freenode.net
+* Github Source: https://github.com/VAGAScom/tiny_tds_vagas
+* Github Issues: https://github.com/VAGAScom/tiny_tds_vagas/issues
 
 
 ## About Me
